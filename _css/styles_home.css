@@ -1,0 +1,120 @@
+.s1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border: none;
+}
+
+.s2{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+}
+
+.mb{
+    float: right;
+}
+
+.mb a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.mb a:hover:not(.active){
+    background-color: #008B8B;
+    color: white;
+}
+
+.mb .active{
+    color: blue;
+}
+
+
+nav{
+    float: left;
+    max-width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+.s3{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: none;
+    height: 100%;
+    overflow: auto;
+}
+
+.nb a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.nb a.active{
+    background-color: #008B8B;
+    color: white;
+}
+
+.nb a:hover:not(.active){
+    background-color: #555;
+    color: white;
+}
+.nb{
+    text-align: center;
+    border-bottom: none;
+}
+
+.nb:last-child{
+    border-bottom: none;
+}
+
+section{
+    margin-left: 205px;
+    border-left: none;
+    border: none;
+    border-right: none;
+    padding: 0;
+    overflow: hidden;
+    text-align: left;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #008B8B;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
