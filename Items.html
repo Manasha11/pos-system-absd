@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table,td,th{
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <fieldset>
+            <label> <input type="text" placeholder="Search Items"/></label>
+            <button>Search</button>
+            <label>Fields: 
+            <select>
+                <option selected>All</option>
+                <option>Item ID</option>
+                <option>UPC/EAN/ISBN</option>
+                <option>Product ID</option>
+                <option>Item Name</option>
+                <option>Description</option>
+                <option>Size</option>
+                <option>Cost Price</option>
+                <option>Selling Price</option>
+                <option>Promo Price</option>
+                <option>Quantity</option>
+                <option>Reorder Level</option>
+                <option>Supplier</option>
+                <option>Tag</option>
+            </select></label>
+            <label>Category:
+                <select>
+                    <option selected>All</option>
+                    <option>Drink</option>
+                </select>
+            </label>
+            <button><a href="NewItem.html">New Item</a></button>
+            <br>
+        </fieldset>
+        
+        <table>
+            <caption>
+                <h3>List of Items</h3>
+            </caption>
+            <thead>
+                <tr>
+                    <th>Item ID</th>
+                    <th>UPC/EAN/ISBN</th>
+                    <th>Name</th>
+                    <th>Category</th>
+                    <th>Size</th>
+                    <th>Cost Price</th>
+                    <th>Selling Price</th>
+                    <th>Quantity</th>
+                    <th>Inventory</th>
+                    <th>Clone</th>
+                    <th>Edit</th>
+                </tr>
+                <tr>
+                    <td>I001</td>
+                    <td>1325</td>
+                    <td><a>Baking Bar</a></td>
+                    <td>Food and Home</td>
+                    <td>1</td>
+                    <td>$20.00</td>
+                    <td>$30.00</td>
+                    <td>Not Set</td>
+                    <td></td>
+                    <td><a href="">Clone</a></td>
+                    <td><a href="">Edit</a></td>
+                </tr>
+                <tr>
+                    <td>I002</td>
+                    <td>1285</td>
+                    <td><a>Milk</a></td>
+                    <td>Drinks</td>
+                    <td>10</td>
+                    <td>$10.00</td>
+                    <td>$15.00</td>
+                    <td>Not Set</td>
+                    <td></td>
+                    <td><a href="">Clone</a></td>
+                    <td><a href="">Edit</a></td>
+                </tr>
+            </thead>
+        </table>
+    </body>
+</html>
