@@ -11,16 +11,19 @@
             }
 
         </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link rel="stylesheet" type="text/css" href="_css/reset.css">-->
+        <link rel="stylesheet" type="text/css" href="_css/bootstrap.min.css">
     </head>
     
     <body>
         <fieldset>
             <label> <input type="text" placeholder="Search Customer"  name="custName" value="" /> </label>
-            <button> <a href="NewCustomer.html" target="home">New Customer </a> </button>
+            <button id="search"> <a href="NewCustomer.html" target="home">New Customer </a> </button>
         </fieldset>
         <br>
         <br>
-        <table>
+        <table class="table table-striped">
             <caption> <h3>List of Customers</h3></caption>
             <thead>
                 <tr>
